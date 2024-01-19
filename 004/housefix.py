@@ -1,0 +1,20 @@
+import turtle 
+t=turtle.Turtle()
+t.pensize(2)
+a=300
+g=90
+f=60
+t.penup()
+t.goto(-100,100)
+t.pendown()
+t.forward(a)
+t.rt(g)
+t.forward(a)
+t.rt(g)
+t.forward(a)
+t.rt(g)
+t.forward(a)
+t.rt(30)
+t.forward(a)
+t.rt(120)
+t.forward(a)
