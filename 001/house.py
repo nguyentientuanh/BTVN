@@ -2,6 +2,7 @@ import turtle
 turtle.bgcolor("lightblue")
 t=turtle.Turtle()
 t.pensize(2)
+t.speed(100)
 #ve nha
 t.right(90)
 t.fillcolor("yellow")
