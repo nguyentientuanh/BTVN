@@ -6,5 +6,4 @@ while t.position()<(100,0):
     t.forward(d)
     t.rt(a)
     d+=1
-
 turtle.done()
