@@ -5,22 +5,25 @@ r=150
 d=90
 a=0
 count=0
+color="red"
 while count<100:
-   
     if count%3==0:
-        t.pencolor="yellow"
+        color="red"
+        t.color(color)
         t.circle(r,d)
         t.circle(r/2,d)
         t.circle(r,d)
         t.circle(r/2,d)
-    elif count%3==1:        
-        t.pencolor="red"
+    elif count%3==1:   
+        color="blue"   
+        t.color(color)
         t.circle(r,d)
         t.circle(r/2,d)
         t.circle(r,d)
         t.circle(r/2,d)
-    else:        
-        t.pencolor="blue"
+    else:  
+        color="yellow"
+        t.color(color)
         t.circle(r,d)
         t.circle(r/2,d)
         t.circle(r,d)
