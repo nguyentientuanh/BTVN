@@ -12,6 +12,7 @@ while True:
         print('con so hien tai la',current_number)
 
         if current_player=='human':
+            print("human turn")
             player_choice=""
             while player_choice not in ['1','2','3']:
                 player_choice=input("choose your number to add :")
@@ -26,10 +27,10 @@ while True:
             current_player="computer"
 
         else:
+            print("computer turn")
             computer_choice=random.randint(1,3)
             current_number = current_number + computer_choice
  
-            time.sleep(1)
             if current_number>=21:
                 print('con so hien tai la',current_number)
                 print('you Win')

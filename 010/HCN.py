@@ -3,7 +3,7 @@ cd=int(input("nhap chieu dai:"))
 cr=int(input("nhap chieu rong:"))
 
 for i in range(1,cd+1):
-    print_str=''
+    print_str=' '
     for j in range(1,cr+1):
         if i == 1 or i == cd:
             print_str += char
