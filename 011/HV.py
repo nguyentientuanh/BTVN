@@ -5,4 +5,5 @@ def hv(a):
         t.forward(a)
         t.lt(90)
     turtle.done()
-hv(100)
+canh=int(input('nhap canh hinh vuong:'))
+hv(canh)
