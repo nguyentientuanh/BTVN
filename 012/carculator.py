@@ -32,3 +32,4 @@ elif option == '/':
     
 else:
     print("Invalid input")
+    
