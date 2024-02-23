@@ -1,7 +1,7 @@
 import turtle
 import math
-t=turtle.Turtle()
 def circle(r):
+    t=turtle.Turtle()
     t.circle(r)
 
 def area(r):

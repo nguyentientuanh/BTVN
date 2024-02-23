@@ -15,3 +15,4 @@ def mul(a,b):
     d=a*b
     return d
 print(mul(5,7))
+
